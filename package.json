@@ -1,0 +1,16 @@
+{
+  "name": "week2_saa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "lite-server": "^2.6.1",
+    "sass": "^1.70.0"
+  }
+}
