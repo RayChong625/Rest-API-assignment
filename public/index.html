@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- load the reset -->
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" >
-        <!-- bring in the styling for the page -->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
-    <title>Rest-Api</title>
+    <!-- load the reset -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+    <!-- bring in the styling for the page -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>NASA Astronomy Pic of the Day</title>
 </head>
-<body>
-    <h1>Urban Dictionary API </h1>
 
-    <script src="js/main.js"></script>
+<body>
+    <h1>NASA Astronomy Pic of the Day</h1>
+    <label for="date-input">Select Date: </label>
+    <input type="date" id="date-input" />
+    <button id="fetch-button">Fetch Image</button>
+    <div id="nasa-info">Loading...</div>
+
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>

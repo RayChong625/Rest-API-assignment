@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh; 
+    box-sizing: border-box;
+    background: url('../../assets/images/space.jpg') repeat;
+    color: white; 
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+label, input {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: black; 
+}
+
+button {
+    margin: 10px 0;
+    font-size: 1.2em;
+    background-color: white; 
+    color: purple; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #f0f0f0; 
+}
+
+#nasa-info {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px; 
+    color: black; 
+}
+
+#nasa-info h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#nasa-info p {
+    font-size: 0.8em;
+    margin: 10px 0;
+}
+
+#nasa-info img,
+#nasa-info iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.explanation {
+    font-size: 1em; 
+}
